@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fluid-container{
+    width: 100%;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* =================
+    common css ends
+    =============== */
+
+.banner-bg{
+    height: 670px;
+    background: url(../images/donation2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.banner-bg .overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.banner-bg .banner-content{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-bg .banner-content h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #ffffff;
+    margin-top: 174px;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 0px 245px;
+    box-sizing: border-box;
+}
+
+.banner-bg .banner-content p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    padding: 30px 325px;
+    line-height: 24px;
+}
+
+.banner-bg .banner-content a{
+    background-color: #FF5959;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/*  ================
+    banner css ends
+    =============== */
+
+.donate-amount-bg .donate-amount-content .amount-text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.donate-amount-bg .donate-amount-content .amount-text h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donate-amount-bg .donate-amount-content .amount-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    padding: 30px 360px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.donate-amount-bg .donate-amount-content .amount-digit{
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.donate-amount-bg .donate-amount-content .amount-digit .amount{
+    width: 15%;
+    background-color: #ece7e7;
+    text-align: center;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.donate-amount-bg .donate-amount-content .amount-digit .active{
+    border: 2px solid #FF5959;
+    box-sizing: border-box;
+    background-color:rgba(255, 89, 89, 0.214) ;
+    color:#FF5959 ;
+}
+
+.donate-amount-bg .donate-amount-content .amount-form{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-amount-bg .donate-amount-content .amount-form input{
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    margin: 25px 0px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.donate-amount-bg .donate-amount-content .amount-form input::-webkit-inner-spin-button,
+::-webkit-outer-spin-button{
+    appearance: none;
+}
+
+.donate-amount-bg .donate-amount-content .amount-form .form-btn{
+    background-color: #FF5959;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+/* ========================
+    donate amount css ends
+    ===================== */
+
+.plan-bg .plan-container .plan-text{
+    text-align: center;
+}
+
+.plan-bg .plan-container .plan-text h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.plan-bg .plan-container .plan-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px 315px;
+    box-sizing: border-box;
+}
+.plan-bg .plan-container .plan-item{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.plan-bg .plan-container .plan-item .item{
+    width: 25%;
+    background-color: #4f9da61f;
+    padding: 50px 25px;
+    box-sizing: border-box;
+}
+
+.plan-bg .plan-container .plan-item .i2{
+    background-color: #ff59591a;
+}
+
+.plan-bg .plan-container .plan-item .i3{
+    background-color: #ffe20024;
+}
+
+.plan-bg .plan-container .plan-item .item i{
+    font-size: 50px;
+}
+
+.plan-bg .plan-container .plan-item .item h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+
+.plan-bg .plan-container .plan-item .item p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+
+/* ===============
+    plan css ends
+    ============ */
+
+.help-bg{
+    background-image: url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.help-bg .help-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.help-bg .help-overlay .help-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.help-bg .help-overlay .help-container .help-text{
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.help-bg .help-overlay .help-container .help-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    word-break:break-all;
+}
+
+.help-bg .help-overlay .help-img{
+    width: 40%;
+}
+
+.help-bg .help-overlay .help-img img{
+    border: 5px dashed #00ffd7;
+    box-sizing: border-box;
+}
+
+/* =================
+    hlep css ends
+    ============== */
+
+.get-update-bg .get-update-container .get-update-text{
+    text-align: center;
+}
+
+.get-update-bg .get-update-container .get-update-text h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.get-update-bg .get-update-container .get-update-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #707070;
+    padding: 30px 440px;
+    box-sizing: border-box;
+}
+
+.get-update-bg .get-update-container .get-update-form {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255 255 0 / 27%);
+    padding: 50px 100px;
+}
+
+.get-update-bg .get-update-container .get-update-form input{
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    background-color: #dad8d899;
+    color: #AA9F9F;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.get-update-bg .get-update-container .get-update-form button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #FF5959;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+    text-transform: capitalize;
+}
+
+/* ======================
+    get update css ends
+    ================== */
+
+#footer{
+    background-color: black;
+    margin-top: 100px;
+}
+
+#footer .footer-container{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#footer .footer-container h1{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+#footer .footer-container p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+/* ==================
+    footer css ends
+    =============== */
